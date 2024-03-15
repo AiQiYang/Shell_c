@@ -43,7 +43,6 @@ char **split_line(char *line) {
     return tokens;
 }
 
-
 void shell_loop() {
     int status = 1;
     char* line;
