@@ -55,7 +55,6 @@ void shell_loop() {
         
         command = split_line(line);
 
-
     } while (status);
 }
 
